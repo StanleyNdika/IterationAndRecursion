@@ -10,5 +10,15 @@ def iterative_factorial(n):
 def recursive_factorial(n):
     if n==0:
         return 1
-   else:
+    else:
         return n * recursive_factorial(n-1)
+
+numbers = [0,5,10,25,50,100]
+
+print("Iterative Factorial Results:")
+for num in numbers:
+    print(f"{num}! = {iterative_factorial(num)}")
+print("\nRecursive Factorial Results:")
+for num in numbers:
+    print(f"{num}! = {recursive_factorial(num)}")
+    
