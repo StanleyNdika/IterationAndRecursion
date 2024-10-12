@@ -1,4 +1,6 @@
-
+# Name: stanley Ndika Ticha
+# Course: Object oriented prog
+# Lab:  Iterative and Recursive
 
 
 def iterative_factorial(n):
